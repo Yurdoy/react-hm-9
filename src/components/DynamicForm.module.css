@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form_firstField,
+.form_secondField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+p {
+  color: red;
+}
+
+.form_btn {
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 5px;
+}
